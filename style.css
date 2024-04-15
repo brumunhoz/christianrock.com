@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    margin: o auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(165, 161, 161);
+    width: 100%;
+    padding: 10px;
+}
+
+body{ 
+    background-color: rgb(247, 234, 230);
+} 
+img{
+    width: 300px;
+}
+
+.logo img{
+    width: 75%;
+    cursor: pointer;
+}
+
+.menu{
+    width: 300%;
+}
+
+.menu nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    position: relative;
+}
+
+section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+
+}
+
+.slide-box img{
+    width: 100%;
+}
+
+p {
+direction: ltr;
+text-indent: 50px;
+margin: 30px;
+margin-bottom: 0;
+text-indent: 1.5em;
+margin-top: 0
+}
+
+h2 {
+    text-align: center;
+    line-height: 50px;
+}
+
+#img_redonda{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin: 3%;
+    border: 3px solid black;
+}
+
+footer{
+    padding: 60px 4%;
+    background-color: rgb(165, 161, 161);
+    width: 100%;
+}
+
+footer .line-footer p{
+    color: white;
+    text-align: center;
+
+}
+
+.logo,.sociais{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu nav a::after{
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #f8a7b3, #ffdbb7);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 30px;
+}
+.sociais button{
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(45deg, #f8a7b3, #ffdbb7);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sociais button i{
+    font-size: 25px;
+    color: #0e0d0d;
+}
+
+
